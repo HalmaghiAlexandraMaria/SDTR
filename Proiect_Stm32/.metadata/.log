@@ -1,0 +1,100 @@
+!SESSION 2025-12-02 19:05:24.031 -----------------------------------------------
+eclipse.buildId=Version 1.18.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-12-02 19:05:49.412
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-12-02 19:05:49.414
+!MESSAGE Log4j2 initialized with config file C:\Users\Alexandra\STM32CubeIDE\workspace_1.18.0\Proiect_Stm32\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-12-02 19:05:52.975
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.core.jobs 2 2 2025-12-02 19:05:59.549
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.ui.internal.Workbench$39 RUNNING
+	 at java.base/java.lang.invoke.Invokers.checkCustomized(Invokers.java:627)
+	 at java.base/java.lang.invoke.InnerClassLambdaMetafactory.buildCallSite(InnerClassLambdaMetafactory.java:235)
+	 at java.base/java.lang.invoke.LambdaMetafactory.metafactory(LambdaMetafactory.java:341)
+	 at java.base/java.lang.invoke.BootstrapMethodInvoker.invoke(BootstrapMethodInvoker.java:134)
+	 at java.base/java.lang.invoke.CallSite.makeSite(CallSite.java:316)
+	 at java.base/java.lang.invoke.MethodHandleNatives.linkCallSiteImpl(MethodHandleNatives.java:274)
+	 at java.base/java.lang.invoke.MethodHandleNatives.linkCallSite(MethodHandleNatives.java:264)
+	 at com.teamdev.jxbrowser.deps.com.google.common.collect.CollectCollectors.<clinit>(CollectCollectors.java:51)
+	 at com.teamdev.jxbrowser.deps.com.google.common.collect.ImmutableList.toImmutableList(ImmutableList.java:72)
+	 at com.teamdev.jxbrowser.internal.BinariesListing.forCurrentPlatform(BinariesListing.java:77)
+	 at com.teamdev.jxbrowser.engine.ChromiumBinaries.deliverTo(ChromiumBinaries.java:133)
+	 at com.teamdev.jxbrowser.engine.ChromiumBinaries.deliverTo(ChromiumBinaries.java:101)
+	 at com.teamdev.jxbrowser.engine.internal.EngineImpl.newInstance(EngineImpl.java:150)
+	 at com.teamdev.jxbrowser.engine.Engine.newInstance(Engine.java:163)
+	 at com.st.components.swing.JxBrowserEngine.initBrowser(JxBrowserEngine.java:155)
+	 at com.st.components.swing.JxBrowserEngine.<init>(JxBrowserEngine.java:61)
+	 at com.st.components.swing.JxBrowserEngine.getInstance(JxBrowserEngine.java:125)
+	 at com.st.microxplorer.plugins.userauth.WebApp.<init>(WebApp.java:165)
+	 at com.st.microxplorer.plugins.userauth.WebApp.getInstance(WebApp.java:773)
+	 at com.st.microxplorer.plugins.userauth.UserAuth.getBrowserView(UserAuth.java:488)
+	 at com.st.microxplorer.plugins.userauth.UserAuth.checkInfile(UserAuth.java:251)
+	 at com.st.microxplorer.plugins.userauth.UserAuth.activatePlugin(UserAuth.java:169)
+	 at com.st.stm32cube.common.mx.userauth.UserAuthAdapter.<init>(UserAuthAdapter.java:29)
+	 at com.st.stm32cube.common.mx.userauth.UserAuthProvider.getUserAuthAdapter(UserAuthProvider.java:16)
+	 at com.st.stm32cube.common.ecosystemintegration.ui.core.MCUEcoSystemIntegrationUiHelper.getUserAuth(MCUEcoSystemIntegrationUiHelper.java:100)
+	 at com.st.stm32cube.ide.mcu.userauth.UserAuthStartup.earlyStartup(UserAuthStartup.java:32)
+	 at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:79)
+	 at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:55)
+	 at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	 at org.eclipse.ui.internal.Workbench$39.run(Workbench.java:2733)
+	 at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2025-12-02 19:06:00.467 -----------------------------------------------
+eclipse.buildId=Version 1.18.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-12-02 19:06:11.265
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-12-02 19:06:11.267
+!MESSAGE Log4j2 initialized with config file C:\Users\Alexandra\STM32CubeIDE\workspace_1.18.0\Proiect_Stm32\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-12-02 19:06:14.859
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.core.jobs 2 2 2025-12-02 19:06:18.181
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.ui.internal.Workbench$39 RUNNING
+	 at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	 at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1027)
+	 at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150)
+	 at java.base/java.net.URLClassLoader.defineClass(URLClassLoader.java:524)
+	 at java.base/java.net.URLClassLoader$1.run(URLClassLoader.java:427)
+	 at java.base/java.net.URLClassLoader$1.run(URLClassLoader.java:421)
+	 at java.base/java.security.AccessController.doPrivileged(AccessController.java:714)
+	 at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:420)
+	 at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:593)
+	 at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	 at java.base/java.lang.Class.forName0(Native Method)
+	 at java.base/java.lang.Class.forName(Class.java:534)
+	 at java.base/java.lang.Class.forName(Class.java:513)
+	 at com.st.microxplorer.plugins.ipmanager.pluginmanagement.PluginManager.loadPluginJar(PluginManager.java:200)
+	 at com.st.microxplorer.plugins.ipmanager.pluginmanagement.PluginManager.discoverPlugins(PluginManager.java:93)
+	 at com.st.microxplorer.plugins.ipmanager.pluginmanagement.IpPluginManagement.<init>(IpPluginManagement.java:112)
+	 at com.st.microxplorer.plugins.ipmanager.pluginmanagement.IpPluginManagement.<init>(IpPluginManagement.java:118)
+	 at com.st.microxplorer.plugins.ipmanager.pluginmanagement.IpPluginManagement.<init>(IpPluginManagement.java:82)
+	 at com.st.microxplorer.plugins.ipmanager.IPPluginView.getUI(IPPluginView.java:131)
+	 at com.st.microxplorer.plugin.PluginManage.PluginDiscovery(PluginManage.java:84)
+	 at com.st.microxplorer.maingui.MainPanel.initialization(MainPanel.java:329)
+	 at com.st.microxplorer.maingui.AppletMainFrameCubeIde.init(AppletMainFrameCubeIde.java:242)
+	 at com.st.stm32cube.common.mx.core.CubeMxInstance.<init>(CubeMxInstance.java:117)
+	 at com.st.stm32cube.common.mx.core.CubeMxInstance.getInstance(CubeMxInstance.java:91)
+	 at com.st.stm32cube.common.mx.userauth.UserAuthAdapter.<init>(UserAuthAdapter.java:25)
+	 at com.st.stm32cube.common.mx.userauth.UserAuthProvider.getUserAuthAdapter(UserAuthProvider.java:16)
+	 at com.st.stm32cube.common.ecosystemintegration.ui.core.MCUEcoSystemIntegrationUiHelper.getUserAuth(MCUEcoSystemIntegrationUiHelper.java:100)
+	 at com.st.stm32cube.ide.mcu.userauth.UserAuthStartup.earlyStartup(UserAuthStartup.java:32)
+	 at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:79)
+	 at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:55)
+	 at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	 at org.eclipse.ui.internal.Workbench$39.run(Workbench.java:2733)
+	 at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
